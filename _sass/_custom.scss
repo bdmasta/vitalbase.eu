@@ -1,0 +1,43 @@
+html, body {
+height: 100%;
+}
+
+body {
+  padding-top:0em;
+}
+
+
+.landing {
+  padding:0;
+}
+
+.right {
+  height:100%;
+  background: url('http://assetsvitalbase.s3.amazonaws.com/img/landing-right.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+
+}
+
+.selector {
+  margin-top: 1.375em;
+  padding-left: 1.375em;
+  border-left:2px solid $text-color;
+
+  li {
+
+    margin-bottom:0.938em;
+  }
+}
+
+@media (min-width:992px){
+  .logo {
+    float:right;
+
+  }
+}

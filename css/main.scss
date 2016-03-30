@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+// Our variables
+
+
+// Our variables
+$base-font-family: 'Raleway', sans-serif;
+
+$text-color:#212121;
+
+$primary-color:#30b2e7;
+$second-color:#e0023b;
+
+
+$primary-color-dark:#3e3086;
+
+$second-color-light:#eaeaea;
+
+
+@import "custom";

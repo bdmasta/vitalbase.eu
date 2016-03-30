@@ -1,0 +1,47 @@
+---
+layout: page
+title: Vitalbase - Bien-vieillir à domicile - Ageing-well at home
+excerpt: Which country are you based in?
+---
+
+
+<div class="container-fluid"  style="height:100%;">
+  <div class="row" style="height:100%;">
+    <div class="col-md-6" style="height:100%;">
+      <div class="row select-lang" style="width:100%;">
+        <div class="col-md-6">
+          <img class="img-responsive logo" src="//assetsvitalbase.s3.amazonaws.com/img/vitalbase-baseline-logo.png">
+        </div>
+
+        <div class="col-md-6">
+          <ul class="list-unstyled selector">
+            <li><a class="text-uppercase" href="http://www.vitalbase.fr">France</a></li>
+            <li><a class="text-uppercase" href="http://www.vitalbase.co.uk">United Kingdom</a></li>
+            <li><a class="text-uppercase" href="http://www.vitalbase.co.uk">Germany</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 right">
+
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function() {
+  // $(window).resize() est appelée chaque fois que la fenêtre est redimensionnée par l'utilisateur.
+  $(window).resize(function() {
+    $(".select-lang").css({
+      position:'absolute',
+      top:($(window).height() - $(".select-lang").outerHeight()) / 2
+    });
+  });
+});
+
+$(window).load(function() {
+  // au chargement complet de la page, la fonction resize() est appelée une fois pour initialiser le centrage.
+  $(window).resize();
+});
+
+</script>
